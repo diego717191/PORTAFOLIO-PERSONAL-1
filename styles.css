@@ -306,3 +306,74 @@ body {
     margin: 0 10px;
     font-size: 1.2rem;
 }
+/* Móvil (menos de 768px) */
+@media screen and (max-width: 767px) {
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    padding: 40px 15px;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header span,
+  .header p {
+    font-size: 1rem;
+  }
+
+  .tecnologias {
+    font-size: 30px;
+    gap: 15px;
+  }
+
+  .tecnologias-icon-text {
+    font-size: 16px;
+  }
+
+  .habi-numero {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+
+  .habi-descrip h3 {
+    font-size: 1rem;
+  }
+
+  .habi-descrip p {
+    font-size: 0.9rem;
+  }
+
+  .habi-seccion-dos {
+    flex-direction: column;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .habi-seccion-dos-img1 img,
+  .habi-seccion-dos-img2 img {
+    width: 150px;
+    position: static;
+    margin: 10px;
+  }
+
+  .sobre-mi-texto h2 {
+    font-size: 1.6rem;
+  }
+
+  .footer-links ul,
+  .footer-contacto ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-links a,
+  .footer-contacto li {
+    font-size: 0.95rem;
+  }
+}
